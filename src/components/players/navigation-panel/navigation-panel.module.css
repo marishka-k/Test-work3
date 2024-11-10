@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 44px auto 44px;
   column-gap: 14px;
+  align-items: center;
 }
 
 .counter {
@@ -13,4 +14,11 @@
 
 .counter_disabled {
   opacity: 60%;
+}
+
+@media all and (max-width: 900px) {
+  .navigation {   
+    grid-template-columns: 36px auto 36px;
+    column-gap: 12px;
+  }
 }

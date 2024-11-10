@@ -119,7 +119,9 @@ export default function Players() {
     <div className={styles.content}>
       <div className={styles.navigation}>
         <h2 className={styles.title}>Участники турнира</h2>
-        <NavigationPanel leftButtonKlick={leftButtonKlick} rightButtonKlick={rightButtonKlick} selectedPlayers={selectedPlayers} arrLength={playersArr.length} />
+        <div className={styles.navigation_top}>
+          <NavigationPanel leftButtonKlick={leftButtonKlick} rightButtonKlick={rightButtonKlick} selectedPlayers={selectedPlayers} arrLength={playersArr.length} />
+        </div>
       </div>
       <ul className={styles.players}>
       {arr.length > 0 && arr.map((player, index) => {
@@ -129,7 +131,9 @@ export default function Players() {
       })
       }
       </ul>
-
+      <div className={styles.navigation_bottom}>
+        <NavigationPanel leftButtonKlick={leftButtonKlick} rightButtonKlick={rightButtonKlick} selectedPlayers={selectedPlayers} arrLength={playersArr.length} />
+      </div>
     </div>
   );
 }

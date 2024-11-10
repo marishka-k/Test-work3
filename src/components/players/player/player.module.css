@@ -30,3 +30,10 @@
   opacity: 60%;
   margin: 0 0 20px;
 }
+
+@media all and (max-width: 900px) {
+  .avatar {
+    width: 244px;
+    height: 244px;   
+  }
+}

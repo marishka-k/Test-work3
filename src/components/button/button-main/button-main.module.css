@@ -17,8 +17,7 @@
 }
 
 
-.button_black {
-  
+.button_black {  
   background-color: #1F1F1F;
   color: #FFFFFF;
 }
@@ -33,6 +32,13 @@
 @media all and (max-width: 900px) {
   .button {
     padding: 12px 0 ;
+    background-color: #FFFFFF;
+    border: none;
+  }
+
+  .button_black {  
+    background-color: #1F1F1F;
+    color: #FFFFFF;
   }
 }
 

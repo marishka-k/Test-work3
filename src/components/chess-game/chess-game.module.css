@@ -61,15 +61,15 @@
     padding: 80px 70px 125px;
   }
 }
-
+/* 
 @media all and (max-width: 1290px) {
   .content {
     padding: 50px 4px 80px;
   }
  
-}
+} */
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1300px) {
   .content {
     padding: 50px 0 120px;
     row-gap: 17px;

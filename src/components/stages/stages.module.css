@@ -35,6 +35,15 @@
   display: none;
 }
 
+@media all and (max-width: 1400px) {
+  .plain_mobile {
+    display: block;
+    width: 70%;
+    transform: translatey(40px) rotate(-18deg);
+    z-index: 1;
+  }
+}
+
 @media all and (max-width: 900px) {
   .content {
     margin: 0 20px 120px;
@@ -56,9 +65,7 @@
   }
 
   .plain_mobile {
-    display: block;
     width: 102%;
     transform: translatey(40px) rotate(-18deg);
-    z-index: 1;
   }
 }

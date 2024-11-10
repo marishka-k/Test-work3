@@ -9,6 +9,14 @@
   margin-bottom: 60px;
 }
 
+.navigation_top {
+  display: block;
+}
+
+.navigation_bottom {
+  display: none;
+}
+
 .title {
   font-size: 54px;
   line-height: 120%;
@@ -34,7 +42,29 @@
 }
 
 @media all and (max-width: 900px) {
+  .content {
+    padding: 0 20px 93px;
+  }
+
   .players {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 33px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .navigation {
+    margin-bottom: 40px;
+  }
+
+  .navigation_top {
+    display: none;
+  }
+
+  .navigation_bottom {
+    display: flex;
+    justify-content: center;
   }
 }

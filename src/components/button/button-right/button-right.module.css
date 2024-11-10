@@ -16,6 +16,8 @@
 
 .arrow {
   transform: rotate(0deg);
+  width: 9px;
+  height: 16px;
 }
 
 .disabled {
