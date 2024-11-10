@@ -1,9 +1,12 @@
 import ches1 from '../../images/ches1.jpg'
 import ches2 from '../../images/ches2.jpg'
+import { useResize } from '../../utils/use-resize';
 import styles from './chess-game.module.css'
 import Table from './table/table'
 
-export default function ChessGame({ windowWidth }) {
+export default function ChessGame() {
+  const { windowWidth } = useResize();
+
   return (
     <div className={styles.content} >
       {windowWidth > 1290

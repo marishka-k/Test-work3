@@ -11,7 +11,7 @@ export default function TableRow ({isFirstRow, isLastRow, text1, text2, text2lin
       _text1Class = `${styles.left_cell} ${styles.last_cell}`
     } else _text1Class = styles.left_cell
     return _text1Class
-  })
+  }, [isFirstRow, isLastRow])
 
   const text2Class = useMemo(()=> {
     let _text2Class
@@ -21,7 +21,7 @@ export default function TableRow ({isFirstRow, isLastRow, text1, text2, text2lin
       _text2Class = `${styles.right_cell} ${styles.last_cell}`
     } else _text2Class = styles.right_cell
     return _text2Class
-  })
+  },[isFirstRow, isLastRow ])
     
   return(
     <li className={styles.row}>

@@ -24,9 +24,9 @@ function App() {
       <main className={styles.main}>
         <Tezises/>
         <Slogan/>
-        <ChessGame windowWidth={windowWidth}/>
+        <ChessGame/>
         <Stages/> 
-        <Players windowWidth={windowWidth}/>
+        <Players/>
         <Slogan/>
         <TopBackground/>          
       </main>

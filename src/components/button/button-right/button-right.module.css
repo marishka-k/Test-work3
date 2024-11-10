@@ -19,6 +19,13 @@
 }
 
 .disabled {
-  background-color: #D6D6D6;
+  background-color: #d6d6d6;
   pointer-events: none;
+}
+
+@media all and (max-width: 900px) {
+  .button {
+    width: 36px;
+    height: 36px;
+  }
 }

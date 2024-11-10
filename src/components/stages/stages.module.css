@@ -1,4 +1,4 @@
-.content{
+.content {
   margin: 0 72px 200px;
 }
 
@@ -21,12 +21,44 @@
   margin-bottom: 50px;
 }
 
-.remark{
-  color: #3057A2;
-  font-family: 'Golos Text';
+.remark {
+  color: #3057a2;
+  font-family: "Golos Text";
   font-size: 20px;
   line-height: 120%;
   font-weight: 400;
   margin: 0;
   padding: 0;
+}
+
+.plain_mobile {
+  display: none;
+}
+
+@media all and (max-width: 900px) {
+  .content {
+    margin: 0 20px 120px;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 110%;
+  }
+
+  .remark {
+    font-size: 18px;
+  }
+
+  .title_block {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+    margin-bottom: 0;
+  }
+
+  .plain_mobile {
+    display: block;
+    width: 102%;
+    transform: translatey(40px) rotate(-18deg);
+    z-index: 1;
+  }
 }

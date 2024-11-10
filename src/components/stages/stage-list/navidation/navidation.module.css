@@ -1,0 +1,13 @@
+.buttons {
+  display: grid;
+  grid-template-columns: 36px auto 36px;
+  column-gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots {
+  display: grid;
+  grid-template-columns: repeat(5, 10px);
+  column-gap: 6px;
+}

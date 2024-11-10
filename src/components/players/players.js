@@ -3,8 +3,10 @@ import { playersArr } from "../../utils/constats";
 import NavigationPanel from "./navigation-panel/navigation-panel";
 import styles from "./players.module.css";
 import Player from "./player/player";
+import { useResize } from "../../utils/use-resize";
 
-export default function Players({windowWidth}) {
+export default function Players() {
+  const { windowWidth } = useResize();
   const [arr, setArr] = useState([])
 
   const [selectedPlayers, setSelectedPlayers] = useState([])

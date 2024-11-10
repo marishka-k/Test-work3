@@ -51,8 +51,64 @@
 }
 
 .plain_mobile {
+  display: none;  
+}
+
+.mobile_list {
   display: none;
+}
+
+.mobile_item {
+  position: relative;
+  display: grid;
+  align-content: baseline;
+  row-gap: 28px;
+  background-color: #d9d9d9;  
+  justify-content: center;
+  padding: 66px 19px 0;
+}
+
+.background1 {
   position: absolute;
-  bottom: 0;
+  top: 0;
+  left: 0;
   right: 0;
+  bottom: 0;
+  background-image: url("../../../images/paper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 80%;
+}
+
+.background2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 20%;
+}
+
+@media all and (max-width: 900px) {
+  .plain_decktop{
+    display: none;
+  }
+
+  .plain_mobile {
+    display: block;
+  }
+
+  .list{
+    display: none;
+  }
+
+  .mobile_list {    
+    display: grid;
+    grid-template-rows: 300px auto;
+    row-gap: 28px;
+
+  }  
 }
