@@ -1,6 +1,5 @@
-.content {
-  height: calc(700px - 127px);
-  padding: 65px 0 0 350px;
+.content {  
+  padding: 65px 0 124px 350px;
   position: relative;
   z-index: 1;
 }
@@ -35,7 +34,7 @@
   width: 100%;
   max-width: 490px;
   text-align: center;
-  font-family: 'Golos Text';
+  font-family: "Golos Text";
   font-size: 18px;
   line-height: 130%;
   font-weight: 400;
@@ -53,6 +52,31 @@
 
 @media all and (max-width: 1900px) {
   .content {
-    padding: 65px 0 0 75px;
+    padding: 65px 0 124px 75px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .content {
+    padding: 45px 20px 290px;
+  }
+
+  .tezises {
+    max-width: 335px;
+  }
+  .tezis {
+    font-size: 36px;
+  }
+
+  .pay {
+    max-width: 335px;
+    text-align: left;
+    margin: 0 0 28px;
+  }
+
+  .buttons {
+    max-width: 335px;
+    grid-template-columns: 1fr;
+    row-gap: 14px;
   }
 }

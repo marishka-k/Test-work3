@@ -30,3 +30,9 @@
   border: none;
 }
 
+@media all and (max-width: 900px) {
+  .button {
+    padding: 12px 0 ;
+  }
+}
+

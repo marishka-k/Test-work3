@@ -4,3 +4,8 @@
   list-style-type: none;
 }
 
+@media all and (max-width: 900px) {
+  .content {
+    margin-top: 28px;
+  }
+}

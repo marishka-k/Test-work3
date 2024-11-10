@@ -9,7 +9,7 @@ export default function Tezises() {
         <p className={`${styles.tezis} ${styles.tezis_center}`}> в столицу </p>
         <p className={`${styles.tezis} ${styles.tezis_right}`}> земного шара </p>
       </div>
-      <p className={styles.pay}>Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
+      <p className={styles.pay}>{`Оплатите взнос на телеграммы для${'\u00A0'}организации Международного васюкинского турнира по шахматам`}</p>
       <div className={styles.buttons}>
         <ButtonMain isColor={true} text="Поддержать шахматную мысль" />
         <ButtonMain isColor={false} text="Подробнее о турнире" />

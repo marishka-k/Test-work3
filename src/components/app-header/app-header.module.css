@@ -26,6 +26,10 @@
 
 @media all and (max-width: 900px) {
   .header {
-    padding:  26px 0 0 50px;
+    padding:  26px 0 0 20px;
+  }
+  .logo {
+    width: 213px;
+    height: 32px;    
   }
 }

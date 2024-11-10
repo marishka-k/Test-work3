@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import Stages from '../stages/stages';
 import Players from '../players/players';
 import Footer from '../footer/footer';
+import TopBackground from '../top-background/top-background';
 
 
 function App() {
@@ -27,11 +28,7 @@ function App() {
         <Stages/> 
         <Players windowWidth={windowWidth}/>
         <Slogan/>
-        <div className={styles.background}>
-          <div className={styles.back_1}></div>
-          <div className={styles.back_2}></div>
-          <div className={styles.back_3}></div>         
-        </div>
+        <TopBackground/>          
       </main>
       <Footer/>
     </div>

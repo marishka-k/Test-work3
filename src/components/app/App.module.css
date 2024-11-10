@@ -1,6 +1,5 @@
 .app {
-  max-width: 1920px;
-  min-width: 370px;
+  max-width: 1920px; 
   height: 100vh;
   margin: auto;
   background: #ffffff;
@@ -9,44 +8,7 @@
   position: relative;
 }
 
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 700px;
-  margin: auto;
-}
-
-.back_1 {
-  background-color: #e6dbcf;
-  background-image: url("../../images/Group_back.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  background-position: bottom center;
-  width: 100%;
-  height: 100%;
-}
-
-.back_2 {
-  background-image: url("../../images/background.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  background-size: 100% 700px;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  opacity: 20%;
-}
-
-.back_3 {
-  background-image: url("../../images/Group_front.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  background-position: bottom center;
-  width: 99%;
-  height: 100%;
+@media all and (max-width: 900px) {
+  
 }
 
