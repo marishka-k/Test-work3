@@ -52,7 +52,8 @@
 
   .back_3 {
     background-image: url("../../images/Group_front_mob.png");
-    height: 102%;
+    background-size: 100%;
+    background-position: left 102%;
   }
 }
 
