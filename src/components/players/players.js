@@ -54,8 +54,7 @@ export default function Players() {
       if (_selectedPlayers.length === 1) {
         if (_selectedPlayers[0] < playersArr.length - 1) {
           _selectedPlayers.push([Number(_selectedPlayers[_selectedPlayers.length - 1]) + 1])
-        } else _selectedPlayers.push([Number(_selectedPlayers[0]) - 1])
-        console.log('_selectedPlayers[0]', _selectedPlayers[0]);
+        } else _selectedPlayers.push([Number(_selectedPlayers[0]) - 1])        
         
         setSelectedPlayers(_selectedPlayers)    
       }
@@ -77,10 +76,7 @@ export default function Players() {
         setSelectedPlayers(_selectedPlayers)
       }
 
-    }    
-
-    console.log('_selectedPlayers', _selectedPlayers);
-    
+    }      
     
   }, [selectedPlayers, windowWidth])
 
@@ -109,8 +105,7 @@ export default function Players() {
     if (selectedPlayers[selectedPlayers.length - 1] !== playersArr.length) {
       selectedPlayers.forEach(el => _newSelectedPlayers.push(el + 1))
       setSelectedPlayers(_newSelectedPlayers)
-    }
-    console.log('rightButtonKlick');
+    }    
     
   }
 
