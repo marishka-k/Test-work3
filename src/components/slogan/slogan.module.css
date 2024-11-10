@@ -1,0 +1,30 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  column-gap: 12px;
+  background-color: #f54932;
+  color: #ffffff;
+  width: 100%;
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+.slogan {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  color: #ffffff;
+  flex-wrap: nowrap;
+  font-size: 22px;
+  line-height: 110%;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+}

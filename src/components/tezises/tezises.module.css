@@ -1,0 +1,58 @@
+.content {
+  height: calc(700px - 127px);
+  padding: 65px 0 0 350px;
+  position: relative;
+  z-index: 1;
+}
+
+.tezises {
+  width: 100%;
+  max-width: 540px;
+  margin-bottom: 24px;
+}
+
+.tezis {
+  width: 100%;
+  font-size: 60px;
+  line-height: 110%;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.tezis_left {
+  text-align: left;
+}
+.tezis_center {
+  text-align: center;
+}
+.tezis_right {
+  text-align: right;
+}
+
+.pay {
+  width: 100%;
+  max-width: 490px;
+  text-align: center;
+  font-family: 'Golos Text';
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 400;
+  margin: 0 25px 40px;
+  padding: 0;
+}
+
+.buttons {
+  width: 100%;
+  max-width: 540px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  display: grid;
+}
+
+@media all and (max-width: 1900px) {
+  .content {
+    padding: 65px 0 0 75px;
+  }
+}

@@ -1,0 +1,32 @@
+.content{
+  margin: 0 72px 200px;
+}
+
+.title {
+  width: 100%;
+  font-size: 54px;
+  line-height: 120%;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.title_block {
+  display: grid;
+  grid-template-columns: auto 290px;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 50px;
+}
+
+.remark{
+  color: #3057A2;
+  font-family: 'Golos Text';
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}

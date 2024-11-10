@@ -1,0 +1,16 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 44px auto 44px;
+  column-gap: 14px;
+}
+
+.counter {
+  font-family: 'Golos Text';
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.counter_disabled {
+  opacity: 60%;
+}

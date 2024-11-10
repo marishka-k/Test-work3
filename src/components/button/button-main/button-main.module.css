@@ -1,0 +1,32 @@
+.button {  
+  color: #1F1F1F;
+  background-color: inherit;
+  font-family: 'Golos Text';
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 500;
+  padding: 15px 50px;
+  text-align: center;
+  border: 2px solid #1F1F1F;
+  border-radius: 66px;
+}
+
+.button:hover {
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+}
+
+
+.button_black {
+  
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+}
+
+.button_black:hover {
+  background-color: #FBCE51;
+  border: 2px solid #FBCE51;
+  color: #1F1F1F;
+  border: none;
+}
+

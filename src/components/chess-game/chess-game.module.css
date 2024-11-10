@@ -1,0 +1,61 @@
+.content {
+  position: relative;
+  display: grid;
+  row-gap: 63px;
+  padding: 54px 350px 200px;
+}
+
+.main_text {
+  width: 100%;
+  font-size: 36px;
+  line-height: 135%;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;  
+}
+
+.ches_one {
+  display: grid;
+  grid-template-columns: 1fr 395px;
+  column-gap: 70px;  
+  align-items: center;
+}
+
+.ches_two {
+  display: grid;
+  grid-template-columns: 474px 1fr;
+  column-gap: 44px;
+}
+
+.ches_image_two{
+  transform: translate(-25px, -50px);
+}
+
+.red {
+  color: #f54932;
+  font-weight: 600;
+}
+
+.remark {
+  color: #3057A2;
+  font-family: 'Golos Text';
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  margin: 44px 0 0;
+  padding: 0;
+}
+
+
+@media all and (max-width: 1900px) {
+  .content {
+    padding: 80px 70px 125px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .content {
+    padding: 50px 4px 80px;
+  }
+}

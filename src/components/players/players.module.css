@@ -1,0 +1,40 @@
+.content {
+  padding: 0 72px 140px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 54px;
+  line-height: 120%;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.players {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+@media all and (max-width: 1300px) {
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 900px) {
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

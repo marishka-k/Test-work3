@@ -1,0 +1,59 @@
+.row {
+  display: grid;
+  grid-template: repeat(5, auto) / 44% 1fr;
+  border-bottom: 2px solid #d0d0d0;
+  margin: 0;
+  padding: 0;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.left_cell {
+  font-family: "Golos Text";
+  color: #313131;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  border-right: 2px solid #d0d0d0;
+  opacity: 70%;
+  margin: 0;
+  padding: 16px 9px;
+}
+
+.right_cell {
+  font-family: "Golos Text";
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 600;
+  padding: 16px 17px;
+}
+
+.right_cell_dop {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 12px;
+}
+
+.first_cell {
+  padding-top: 0;
+}
+.last_cell {
+  padding-bottom: 0;
+}
+
+.fixed_text {
+  color: #ff0000; /* цвет зачеркивающей линии */
+  text-decoration: line-through;
+  display: inline;
+}
+
+.fixed_text span {
+  color: #313131; /* цвет зачеркиваемого текста */
+}
+
+.clean {
+  margin: 0;
+  padding: 0;
+}

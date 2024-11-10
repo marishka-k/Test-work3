@@ -1,0 +1,58 @@
+.list {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  grid-template-areas:
+    " area_1 area_2 area_3 "
+    " area_4 area_5 area_3 "
+    " area_6 area_7 area_7 ";
+}
+
+.area_1 {
+  grid-area: area_1;
+  position: relative;
+}
+
+.area_2 {
+  grid-area: area_2;
+}
+
+.area_3 {
+  grid-area: area_3;
+}
+
+.area_4 {
+  grid-area: area_4;
+}
+
+.area_5 {
+  grid-area: area_5;
+}
+
+.area_6 {
+  grid-area: area_6;
+}
+
+.area_7 {
+  grid-area: area_7;
+  position: relative;
+}
+
+.plain_decktop {
+  position: absolute;
+  bottom: 50px;
+  right: -50px;
+  transform: rotate(-15deg);
+}
+
+.plain_mobile {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
