@@ -8,7 +8,7 @@ export default function ChessGame() {
   const { windowWidth } = useResize();
 
   return (
-    <div className={styles.content} >
+    <div className={styles.content} id="chess-game" >
       {windowWidth > 1290
       ? <div className={styles.ches_one}>
           <p className={styles.main_text}> Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span className={styles.red}>«Плодотворная дебютная идея»</span> </p>

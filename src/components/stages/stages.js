@@ -5,7 +5,7 @@ import styles from "./stages.module.css";
 export default function Stages() {
 
   return (
-    <div className={styles.content}>
+    <div className={styles.content} id="about-section">
       <h2 className={styles.title}>Этапы преображения</h2>
       <div className={styles.title_block}>
         <h2 className={styles.title}>Васюков</h2>

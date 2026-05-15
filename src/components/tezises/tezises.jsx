@@ -11,8 +11,8 @@ export default function Tezises() {
       </div>
       <p className={styles.pay}>{`Оплатите взнос на телеграммы для${'\u00A0'}организации Международного васюкинского турнира по шахматам`}</p>
       <div className={styles.buttons}>
-        <ButtonMain isColor={true} text="Поддержать шахматную мысль" />
-        <ButtonMain isColor={false} text="Подробнее о турнире" />
+        <ButtonMain isColor={true} text="Поддержать шахматную мысль" targetId="chess-game" />
+        <ButtonMain isColor={false} text="Подробнее о турнире" targetId="about-section" />
       </div>
     </div>
   );
